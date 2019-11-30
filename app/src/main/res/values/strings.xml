@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Козёл: подсчет очков</string>
+    <string name="Com1">Команда 1</string>
+    <string name="Com2">Команда 2</string>
+</resources>

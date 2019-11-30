@@ -1,12 +1,13 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar.Bridge">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="buttonStyle">@style/button</item>
+        <item name="android:buttonStyle">@style/button</item>
         <item name="windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:textViewStyle">@style/TextviewStyle</item>
+        <item name="android:colorAccent">#00ff00</item>
 
     </style>
     <style name="button" parent="@style/Widget.MaterialComponents.Button">

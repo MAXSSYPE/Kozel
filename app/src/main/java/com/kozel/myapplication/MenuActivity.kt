@@ -1,7 +1,6 @@
 package com.kozel.myapplication
 
 import android.content.Context
-import android.content.Intent
 import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle
 import android.view.View
@@ -164,11 +163,7 @@ class MenuActivity : AppCompatActivity() {
             .setPositiveButton(
                 "Да"
             ) { _, _ ->
-                val intent = Intent(Intent.ACTION_MAIN)
-                intent.addCategory(Intent.CATEGORY_HOME)
-                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
-                startActivity(intent)
-                finish()
+                finishAffinity()
             }.setNegativeButton("Нет", null).show()
     }
 }
